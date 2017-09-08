@@ -12,4 +12,7 @@
 [KKNoCompileEngine startEngineWithJSPath:@"/Users/TsuiYuenHong/Desktop/main.js" host:@"127.0.0.1" port:9527];
 ```
 
-**注意** : `JSPath/host/port` 参数如果需要修改需要**同步**到 `NOCOMPILE_NODE_SERVER.js` 中方可生效
+
+**注意** :
+1. `JSPath` 需修改为你指定的路径 
+2. `JSPath/host/port` 参数如果需要修改需要 **同步** 到 `NOCOMPILE_NODE_SERVER.js` 中方可生效
