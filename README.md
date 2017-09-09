@@ -7,7 +7,7 @@ http://ocnnxadky.bkt.clouddn.com/KK_NO_COMPILE_DEMO.mp4
 # 使用说明
 1. 安装 `node.js`
 2. 下载本项目
-2. 编译 KK_NODE_COMPILE_EDITOR_EXTENSION 中的 Xcode Editor Extension，将生成 .app 移动在应用中即可使用
+2. 编译 `KK_NODE_COMPILE_EDITOR_EXTENSION` 中的 `Xcode Editor Extension`，将生成 `.app` 移动在应用中即可使用
 3. 使用 `node` 执行 `Node_Server` 中的 `NOCOMPILE_NODE_SERVER.js` 脚本
 4. 集成 `NO_COMPILE_Libs` 到你的项目中(需要添加 `JavaScriptCore.framework`)
 5. 在项目启动后执行
