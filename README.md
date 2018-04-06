@@ -1,4 +1,4 @@
-# KK_NO_COMPILE
+# KKNoCompile
 实现 iOS 不编译即可更新代码的一种方案
 
 ## 视频展示
