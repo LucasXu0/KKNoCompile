@@ -89,7 +89,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		349FAE711F62A2F200D6201F /* NO_COMPILE_Libs */ = {
+		349FAE711F62A2F200D6201F /* KKNoCompile */ = {
 			isa = PBXGroup;
 			children = (
 				349FAE721F62A35B00D6201F /* KKNoCompileEngine.h */,
@@ -97,7 +97,7 @@
 				349FAE651F62A2B300D6201F /* CocoaAsyncSocket */,
 				349FAE611F62A2AD00D6201F /* JSPatch */,
 			);
-			path = NO_COMPILE_Libs;
+			path = KKNoCompile;
 			sourceTree = "<group>";
 		};
 		34DDDA8A1F62495C006D4C78 = {
@@ -120,7 +120,7 @@
 		34DDDA951F62495C006D4C78 /* KK_NO_COMPILE */ = {
 			isa = PBXGroup;
 			children = (
-				349FAE711F62A2F200D6201F /* NO_COMPILE_Libs */,
+				349FAE711F62A2F200D6201F /* KKNoCompile */,
 				34DDDA961F62495C006D4C78 /* AppDelegate.h */,
 				34DDDA971F62495C006D4C78 /* AppDelegate.m */,
 				34DDDA991F62495C006D4C78 /* ViewController.h */,
