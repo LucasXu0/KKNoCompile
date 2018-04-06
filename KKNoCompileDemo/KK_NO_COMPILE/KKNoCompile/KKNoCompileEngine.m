@@ -69,9 +69,7 @@ static KKNoCompileEngine *_instance;
 - (void)socket:(GCDAsyncSocket *)sock didReadData:(NSData *)data withTag:(long)tag{
     KKDebugLog(@"机甲开始修复");
     [JPEngine evaluateScriptWithPath:self.jsPath];
-    KKDebugLog(@"机甲注入成功");
     [self.socket readDataWithTimeout:-1 tag:0];
-    KKDebugLog(@"机甲完成修复");
 }
 
 + (void)enableDebugLog:(BOOL)enable
@@ -82,7 +80,7 @@ static KKNoCompileEngine *_instance;
 bool enableDebugLog;
 void KKDebugLog(NSString *info){
     if (enableDebugLog) {
-        NSLog(@"-KKNoCompileEngine- :%@",info);
+        NSLog(@"[KKNoCompileEngine]:%@",info);
     }
 }
 

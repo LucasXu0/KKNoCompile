@@ -1009,6 +1009,7 @@ static void overrideMethod(Class cls, NSString *selectorName, JSValue *function,
     // Replace the original selector at last, preventing threading issus when
     // the selector get called during the execution of `overrideMethod`
     class_replaceMethod(cls, selector, msgForwardIMP, typeDescription);
+    NSLog(@"[KKNoCompileEngine]:机甲注入成功");
 }
 
 #pragma mark -

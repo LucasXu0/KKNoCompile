@@ -24,12 +24,13 @@
     
     // 启动 KKNoCompileEngine
     [KKNoCompileEngine startEngineWithJSPath:@"/Users/TsuiYuenHong/Desktop/main.js" host:@"127.0.0.1" port:9527];
+    [KKNoCompileEngine enableDebugLog:YES];
     
     [self configUI];
 }
 
 - (void)configUI{
-    self.testLabel.text = @"666666666666666";
+    self.testLabel.text = @"2";
     self.testLabel.textColor = [UIColor redColor];
     [self.testLabel sizeToFit];
     
